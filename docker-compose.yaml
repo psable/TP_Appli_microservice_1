@@ -1,0 +1,16 @@
+version: "2.4"
+
+services:
+
+
+networks:
+
+
+volumes:
+  mybdd:
+    driver_opts:
+      o: bind
+      type: none
+      device: /appmicroservice/mybdd
+
+
