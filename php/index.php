@@ -5,7 +5,7 @@
  $bdd = getenv ("BDD_HOST");
  $user = getenv ("BDD_USER");
  $pass = getenv ("BDD_PASS");
- echo '<pre>';
+ /* echo '<pre>';
  try{
    $conn = new \PDO("mysql:host=$bdd", "$user", "$pass");
    $sth = $conn->prepare('SHOW DATABASES');
@@ -20,4 +20,5 @@
      print_r($e);
  }
  echo '</pre>';
+ */
 ?>
